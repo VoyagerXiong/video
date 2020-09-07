@@ -11,9 +11,9 @@ class OssController extends Controller
     public function sign()
     {
         //阿里云 AccessKeyId
-        $id = 'LTAIh5BFtHUdeWCn';
+        $id = '';
         //阿里云  AccessKeySecret
-        $key = 'UUY9w8myqL6yXeaID1vayqDJXN2wk1';
+        $key = '';
         //OSS外网域名: 在阿里云后台OSS bucket中查看
         $host = 'http://voyagervideo.oss-cn-beijing.aliyuncs.com';
         //oss中本次上传存放文件的目录
